@@ -1,0 +1,155 @@
+
+
+@font-face {
+  font-family: beatles;
+  src: url(fonts/beatles.ttf);
+}
+@font-face {
+  font-family: Gretoon;
+  src: url(fonts/gretoon.ttf);
+}
+@font-face {
+  font-family: Broadway;
+  src: url(fonts/broadway.ttf);
+}
+
+
+body {
+  background-color: #232a30;
+  color: #eee;
+  font-family: "Lato", cursive;
+}
+
+#title-box {
+  border: 1px solid #eee;
+  margin-left: 20px;
+  padding: 20px;
+}
+#title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 45px;
+  letter-spacing: 8px;
+  margin-top: 50px;
+}
+
+#subtext {
+  font-family: 'Lato', cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 70px;
+}
+
+
+
+#friends-head {
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: 4px;
+  margin-top: 20px;
+}
+
+.friend {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  height: 150px;
+  margin-top: 15px;
+  margin-left: 15px;
+  overflow: hidden;
+  width: 30%;
+}
+
+.friend:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-size: 100%;
+}
+
+#friend1 {
+  background-image: url('img/prosimian.jpg');
+}
+#friend2 {
+  background-image: url('img/lion.jpg');
+}
+#friend3 {
+  background-image: url('img/zebra.jpg');
+}
+#friend4 {
+  background-image: url('img/cat.jpg');
+}
+#friend5 {
+  background-image: url('img/bird.jpg');
+}
+#friend6 {
+  background-image: url('img/hippo.jpg');
+}
+#friend7 {
+  background-image: url('img/lemur.jpg');
+}
+#friend8 {
+  background-image: url('img/buffalo.jpg');
+}
+#friend9 {
+  background-image: url('img/elephant.jpg');
+}
+#friend10 {
+  background-image: url('img/gazzelle.jpg');
+}
+#friend11 {
+  background-image: url('img/dog.jpg');
+}
+#friend12 {
+  background-image: url('img/bush-baby.jpg');
+}
+
+
+
+/*  PERISCOPE  */
+
+#periscope-title {
+  margin-top: 100px;
+}
+
+#periscope-title h1 {
+  font-family: 'beatles';
+  font-size: 80px;
+  letter-spacing: 10px;
+}
+
+#periscope {
+  background-image: url('img/giraffe-goof.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 15px solid #eee;
+  border-radius: 100%;
+  height: 250px;
+  width: 20%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+/*  GIF SCROLL */
+
+#gif-scroll {
+  height: 2000px;
+}
+
+#gif-scroll-title h1{
+  font-family: 'Broadway';
+  font-size: 50px;
+  letter-spacing: 15px;
+  line-height: 200%;
+  margin-top: 200px;
+}
+
+
+
+
+footer {
+  height: 600px;
+}
